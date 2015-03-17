@@ -1,5 +1,12 @@
 package org.dimigo.basic;
 
+/**
+ * 
+ * 아이유 프로필
+ * 
+ * 2427 이경훈
+ *
+ */
 public class HelloWorld {
 
 	public static void main(String[] args) {
