@@ -44,7 +44,7 @@ public class Question {
 			if("네".equals(answer)){
 				System.out.println("정답입니다.");
 				System.exit(0);
-			}
+			} 
 			else
 				System.out.println("틀렸습니다.");
 		}
