@@ -29,7 +29,7 @@ public class Question {
 		System.out.println("가장 좋아하는 책은 ?");
 		
 		answer = scanner.nextLine();
-		
+		  
 		if("자바를잡아라".equals(answer))
 			System.out.println("정답입니다.");
 		else

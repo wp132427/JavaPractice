@@ -21,7 +21,7 @@ public class Score {
 		double avg = sum / 3.0;
 		
 		StringBuilder sb = new StringBuilder();
-		
+		  
 		sb.append("국어 점수 : ")
 		.append(kor + " 점\n")
 		
