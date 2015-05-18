@@ -12,7 +12,7 @@ public class Question {
 		
 		answer = scanner.nextLine();
 		
-		if("빅뱅".equals(answer))
+		if("스위트걸".equals(answer))
 			System.out.println("정답입니다.");
 		else
 			System.out.println("틀렸습니다.");
@@ -21,16 +21,16 @@ public class Question {
 		
 		answer = scanner.nextLine();
 		
-		if("조인성".equals(answer))
+		if("박수진".equals(answer))
 			System.out.println("정답입니다.");
 		else
 			System.out.println("틀렸습니다.");
 		
-		System.out.println("가장 좋아하는 과목은 ?");
+		System.out.println("가장 좋아하는 책은 ?");
 		
 		answer = scanner.nextLine();
 		
-		if("자바".equals(answer))
+		if("자바를잡아라".equals(answer))
 			System.out.println("정답입니다.");
 		else
 			System.out.println("틀렸습니다.");
@@ -43,11 +43,11 @@ public class Question {
 			
 			if("네".equals(answer)){
 				System.out.println("정답입니다.");
+				scanner.close();
 				System.exit(0);
 			} 
 			else
 				System.out.println("틀렸습니다.");
 		}
 	}
-
 }
