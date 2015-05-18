@@ -1,4 +1,3 @@
-
 package org.dimigo.oop;
 
 import java.util.Scanner;
